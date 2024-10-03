@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Dapper_PracticeWithDBRelations.Controllers.VideoGamesController",
+    "Method": "GetAllVideoGames",
+    "RelativePath": "api/VideoGames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Dapper_PracticeWithDBRelations.Models.VideoGame, Dapper_PracticeWithDBRelations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Dapper_PracticeWithDBRelations.Controllers.VideoGamesController",
+    "Method": "CreateVideoGame",
+    "RelativePath": "api/VideoGames",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoGame",
+        "Type": "Dapper_PracticeWithDBRelations.Models.VideoGame",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dapper_PracticeWithDBRelations.Controllers.VideoGamesController",
+    "Method": "GetVideoGame",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Dapper_PracticeWithDBRelations.Models.VideoGame, Dapper_PracticeWithDBRelations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Dapper_PracticeWithDBRelations.Controllers.VideoGamesController",
+    "Method": "UpdateVideoGame",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "videoGame",
+        "Type": "Dapper_PracticeWithDBRelations.Models.VideoGame",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dapper_PracticeWithDBRelations.Controllers.VideoGamesController",
+    "Method": "DeleteVideoGame",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

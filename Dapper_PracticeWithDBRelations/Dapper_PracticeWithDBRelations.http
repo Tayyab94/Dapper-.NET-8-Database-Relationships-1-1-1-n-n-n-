@@ -1,0 +1,6 @@
+@Dapper_PracticeWithDBRelations_HostAddress = http://localhost:5147
+
+GET {{Dapper_PracticeWithDBRelations_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
